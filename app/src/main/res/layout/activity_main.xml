@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="118dp"
+                android:layout_height="38dp"
+                android:text="人数"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/eTxtNum"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="人"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金額"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/eTxtMoney"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="円"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="計算" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1人当たりの金額"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="61dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="円"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
